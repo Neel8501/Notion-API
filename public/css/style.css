@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Poppins:wght@300&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'Limelight', cursive;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 40px auto;
+  background: #000428;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+}
+
+header {
+  text-align: center;
+}
+
+#loading {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#loading img {
+  height: inherit;
+  width: inherit;
+}
+
+.task {
+  color:black;
+  margin: 20px 0;
+  padding: 15px 25px;
+  background: #E0EAFC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.task h3 {
+  font-size: 25px;
+}
+
+.task li {
+  margin: 5px 0;
+}
+
+.task .tags {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 5px 10px;
+  background: #2C5364;
+  color: #fff;
+}
